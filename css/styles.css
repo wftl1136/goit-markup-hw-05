@@ -608,11 +608,10 @@ body {
 
   .subscribe-form{
     display: flex; 
-  }
-
-  .form-label {
     gap: 24px;
   }
+
+ 
   
   .form-input {
     width: 264px;
