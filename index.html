@@ -425,22 +425,34 @@
         </div>
         <div class="form-group">
           <label class="form-label" for="user-comment">Comment</label>
-          <textarea class="form-textarea" id="user-comment" name="user-comment" placeholder="Text-input"></textarea>
+          <textarea 
+          class="form-textarea" 
+          id="user-comment" 
+          name="user-comment" 
+          placeholder="Text input">
+        </textarea>
 
-          <div class="form-checkbox">
-            <input type="checkbox" id="user-privacy" value="true" name="user-privacy" class="input-checkbox">
-            <label for="I accept the terms and conditions of the" for="user-privacy" class="label-checkbox">
-                <span class="span-checkbox">
-                    <svg class="svg-checkbox" width="10" height="8">
-                        <use href="./images/icons.svg#icon-frame"></use>
-                    </svg>
-                </span>
-                <a href="" class="link-checkbox">Privacy Policy</a>
+        <div class="form-checkbox">
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+              class="input-checkbox visually-hidden"
+            />
+            <label for="user-privacy" class="label-checkbox">
+              I accept the terms and conditions of the
+              <span class="span-checkbox">
+                <svg class="svg-checkbox" width="10" height="8">
+                  <use href="./images/icons.svg#icon-frame"></use>
+                </svg>
+              </span>
+              <a href="#" class="link-checkbox">Privacy Policy</a>
             </label>
           </div>
-        </div>
-
-        <button type="submit" class="form-submit-btn">Send</button>
+          <button type="submit" class="form-submit-btn">
+            Send
+          </button>
       </form>
     </div>
 </body>
