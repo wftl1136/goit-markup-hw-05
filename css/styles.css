@@ -724,7 +724,7 @@ body {
   }
   
   .modal-form .form-group {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
   }
   
   .form-label {
@@ -806,7 +806,6 @@ body {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: var(--text-secondary, #8e8f99);
-    display: inline-flex;
     align-items: center;
     gap: 8px;
   }
@@ -857,7 +856,7 @@ body {
   }
 
   .form-group {
-    margin-bottom: 16px
+    margin-bottom: 8px
   }
 
   .label-input {
