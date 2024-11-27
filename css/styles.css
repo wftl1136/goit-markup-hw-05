@@ -15,9 +15,11 @@
  }
 
 .container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
+  max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -241,13 +243,37 @@ color: #f4f4fd;
 }
 
 .privileges_list{
-    display: flex;
+  max-width: 320px;
     gap: 24px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .privileges_list {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .privileges_list {
+    max-width: 1158px;
+    display: flex;
+  }
 }
 
 .privilege_item {
     width: calc((100% - 72px) / 4);
+    max-width: 320px;
+    margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .privilege_item  {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .privilege_item  {
+    max-width: 1158px;
     
+  }
 }
 
 .privilege-icon {
@@ -288,9 +314,26 @@ background-image: url(../images/icons/astronaut\ 1.svg);
     margin-bottom: 8px;
 }
 .privilege_description {
-    line-height: 1.5;
+   line-height: 1.5;
     letter-spacing: 0.02em;
+    max-width: 320px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
 }
+
+@media screen and (min-width: 768px) {
+  .privilege_description  {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .privilege_description  {
+    max-width: 1158px;
+    
+  }
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -320,8 +363,19 @@ body {
     
 }
 .team-list {
-    display: flex;
+  max-width: 320px;
     gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .team-list {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .team-list {
+    max-width: 1158px;
+    display: flex;
+  }
 }
 
 .white-background {
@@ -436,12 +490,25 @@ body {
     padding-bottom: 120px;
 }
 .portfolio-list {
-    display: flex;
+    
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     
 }
+
+@media screen and (min-width: 768px) {
+  .portfolio-list  {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .portfolio-list  {
+    max-width: 1158px;
+    display: flex;
+  }
+}
+
 
 .portfolio-list .portfolio-li:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),0px 1px 1px rgba(46, 47, 66, 0.16),0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -660,7 +727,7 @@ body {
 
 .form-button-icon {
     margin-left: 16px;
-    color: #FFFFFF;
+    fill: #FFFFFF;
 }
   
 
@@ -897,5 +964,18 @@ body {
     border-radius: 4px; 
     color: #ffffff;
   }
-
   
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1158px) {
+    .container {
+      max-width: 1158px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
