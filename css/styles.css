@@ -490,7 +490,7 @@ body {
     padding-bottom: 120px;
 }
 .portfolio-list {
-    
+    max-width: 320px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -739,8 +739,9 @@ body {
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+    }
 
+  
   .backdrop {
     opacity: 0;
     visibility: hidden;
@@ -979,3 +980,35 @@ body {
     }
   }
 
+  .mobile-menu{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF
+  }
+  .mobile-menu-list{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif ;
+    margin-top: 72px;
+    gap: 40px;
+    margin-left: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+
+
+  .mobile-icon-list{
+    width:280px;
+    height:40px;
+    top: 560px;
+    left: 16px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+  }
+
+ 
